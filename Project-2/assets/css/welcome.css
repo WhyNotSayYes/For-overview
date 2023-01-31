@@ -1,0 +1,125 @@
+.welcome {
+    background: linear-gradient(180deg, #EBEBEB 0%, #F5F5F5 100%);
+    margin-top: calc(70px + 39*(100vw / 1440));
+}
+.welcome__container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+.welcome__text-block {
+    margin-top: calc(118px + 70*(100vw / 1440));
+    position: relative;
+    z-index: 2;
+}
+.welcome__title {
+    max-width: 460px;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: calc(64px + 6*(100vw / 1440));
+    line-height: 122.86%;
+    letter-spacing: 1px;
+}
+.welcome__subtitle {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: calc(24px + 6*(100vw / 1440));
+    line-height: 116.67%;
+    margin-top: 8px;
+}
+.welcome__title span,
+.welcome__subtitle span {
+    color: #EC3D08;
+}
+.welcome__image-block {
+    margin-top: 48px;
+    margin-bottom: 115px;
+}
+.welcome__image {
+    margin-left: 6.45%;
+}
+.square-1,
+.square-2,
+.square-3,
+.square-4,
+.square-5,
+.square-6,
+.square-7 {
+    position: absolute;
+    z-index: 1;
+}
+.square-1 {
+    top: 18%;
+    left: -5.4%;
+    width: 23px;
+    height: 23px;
+    background: #EC3D08;
+    transform: rotate(22.5deg);
+}
+.square-2 {
+    top: 11.5%;
+    left: 12.2%;
+    width: calc(40px + 12*(100vw / 1440));
+    height: calc(40px + 12*(100vw / 1440));
+    border: 1px solid #C6C6C6;
+    transform: rotate(36deg);
+}
+.square-3 {
+    top: 13.5%;
+    left: 38.3%;
+    width: 21px;
+    height: 21px;
+    border: 1px solid #C6C6C6;
+    transform: rotate(33.75deg);
+    animation: rotation-3 20s linear infinite;
+}
+.square-4 {
+    top: 34.5%;
+    left: 43%;
+    width: 52px;
+    height: 52px;
+    border: 1px solid #C6C6C6;
+    transform: rotate(36deg);
+}
+.square-5 {
+    top: 63%;
+    left: -4.4%;
+    width: 43px;
+    height: 43px;
+    border: 1px solid #C6C6C6;
+    transform: rotate(75deg);
+}
+.square-6 {
+    top: 75%;
+    left: 15.5%;
+    width: 23px;
+    height: 23px;
+    border: 1px solid #C6C6C6;
+    transform: rotate(22.5deg);
+}
+.square-7 {
+    top: 67.4%;
+    left: 41%;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #C6C6C6;
+    transform: rotate(75deg);
+}
+.square-1,
+.square-6 {
+    animation: rotation-1 20s linear infinite;
+}
+.square-2,
+.square-4 {
+    animation: rotation-2 20s linear infinite;
+}
+.square-5,
+.square-7 {
+    animation: rotation-4 20s linear infinite;
+}
+
+.button-margin {
+    margin-top: 40px;
+}
+.button.button-margin {
+    display: none;
+}

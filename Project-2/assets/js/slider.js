@@ -1,0 +1,1 @@
+$(document).ready(function(){$('.reviews__slider').slick({slidesToShow:1,slidesToScroll:1,initialSlide:1,arrows:!0,dots:!0,fade:!0,cssEase:'linear',autoplay:!0,autoplaySpeed:10000});$('.p-page__slider').slick({slidesToShow:1,slidesToScroll:1,initialSlide:1,arrows:!0,dots:!0,fade:!0,cssEase:'linear',autoplay:!0})})

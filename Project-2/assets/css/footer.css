@@ -1,0 +1,23 @@
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.footer__logo {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: calc(28px + 2*(100vw / 1440));;
+    line-height: 116.7%;
+    letter-spacing: 1px;
+}
+.footer__logo span {
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: #EC3D08;
+}
+.footer__social {
+    display: flex;
+    align-items: center;
+}
+.footer__social_item:not(:last-child) {
+    margin-right: 35px;
+}

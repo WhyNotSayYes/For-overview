@@ -1,0 +1,35 @@
+.main__order-block {
+}
+.order-block {
+    position: relative;
+    margin-top: calc(200px + 45*(100vw / 1440));
+    padding-bottom: calc(80px + 50*(100vw / 1440));
+}
+.order-block__container {
+    position: relative;
+}
+.order-block::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 68%;
+    height: 1px;
+    background:#E7E7E7;
+}
+
+.order-block__text {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 25px;
+    max-width: 955px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.order-block__button {
+    margin: 0 auto;
+}
+.order-block span {
+    color: #EC3D08;
+}

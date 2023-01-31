@@ -1,0 +1,105 @@
+.p-page {
+    margin-top: 109px;
+    padding-bottom: 60px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%);
+}
+.p-page span {
+    color: #EC3D08;
+}
+.p-page__title-repeat {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: calc(50px + 20*(100vw / 1440));
+    line-height: 120.8%;
+    color: #000;
+    -webkit-text-stroke: 1px #B7B7B7;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+.p-page__content {
+    margin-top: -50px;
+}
+.p-page__title {
+    font-size: calc(45px + 5*(100vw / 1440));
+    line-height: 120%;
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-left: calc(15px + 40*(100vw / 1440));
+}
+.p-page__project-name {
+    font-family: 'Gilroy-Bold', sans-serif;
+    text-align: center;
+    font-size: calc(35px + 5*(100vw / 1440));
+    line-height: 120%;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.p-page__slider {
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p-page__slider-item_img {
+    width: 100%;
+}
+.p-page__slider .slick-prev {
+    left: -5%;
+    top: 50%;
+    background-image: url(../img/arrow-prev.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0;
+    width: 18px;
+    height: 44.5px;
+    transform: translate(50%, -50%);
+}
+.p-page__slider .slick-next {
+    right: -5%;
+    top: 50%;
+    background-image: url(../img/arrow-next.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0;
+    width: 18px;
+    height: 44.5px;
+    transform: translate(-50%, -50%);
+}
+.p-objective,
+.p-result {
+    margin-bottom: calc(35px + 10*(100vw / 1440));
+}
+.p-objective__title,
+.p-result__title {
+    font-size: calc(24px + 6*(100vw / 1440));
+    color: #EC3D08;
+    margin-bottom: 10px;
+}
+.p-objective__item, 
+.p-result__item {
+    font-size: calc(15px + 2*(100vw / 1440));
+    position: relative;
+    margin-left: 24px;
+}
+.p-objective__item::before, 
+.p-result__item::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    left: -24px;
+    top: 3px;
+    background-color: #EC3D08;
+}
+.p-objective__item:not(:last-child), 
+.p-result__item:not(:last-child) {
+    margin-bottom: 5px;
+}
+a.p-page__link {
+    color: #fff;
+}
+.p-footer {
+    background: #F0F0F0;
+}

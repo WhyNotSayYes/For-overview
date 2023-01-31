@@ -1,0 +1,97 @@
+.reviews {
+    margin-top: -75px;
+}
+.reviews__slider {
+    text-align:center;
+    margin: 0 auto;
+    max-width: 1162px;
+    padding: 0 25px;
+    position: relative;
+    z-index: 9;
+}
+.reviews__item {
+    background: #EC3D08;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: calc(90px + 50*(100vw / 1440));
+    padding-bottom: calc(90px + 50*(100vw / 1440));
+    max-width: calc(820px + 100*(100vw / 1440));
+    min-height: calc(410px + 100*(100vw / 1440));
+    color: #FFFFFF;
+}
+.reviews__text {
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 575px;
+    margin-bottom: 60px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: calc(24px + 6*(100vw / 1440));
+    line-height: 116.67%;
+}
+.reviews__person {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: calc(17px + 3*(100vw / 1440));
+}
+
+/*===Slider===*/
+.slick-list {
+	overflow: hidden;
+}
+.slick-track {
+	display: flex;
+}
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: calc(30px + 30*(100vw / 1440));
+    width: calc(135px + 110*(100vw / 1440));
+    margin: 0 auto;
+}
+.slick-dots li {
+    width: calc(35px + 30*(100vw / 1440));
+    height: 2px;
+    background: #D9D9D9;
+    transition: .5s ease;
+}
+.slick-dots li.slick-active {
+    background-color: #EC3D08;
+}
+.slick-dots li button {
+    display: none;
+}
+.reviews__slider .slick-prev {
+    left: 5%;
+    top: 50%;
+    background-image: url(../img/arrow-prev.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0;
+    width: 18px;
+    height: 44.5px;
+    transform: translate(50%, -50%);
+}
+.reviews__slider .slick-next {
+    right: 5%;
+    top: 50%;
+    background-image: url(../img/arrow-next.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0;
+    width: 18px;
+    height: 44.5px;
+    transform: translate(-50%, -50%);
+}
+button.slick-prev,
+button.slick-next {
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    font-size: 10px;
+    z-index: 1000;
+}

@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: local("Gilroy-Bold"), url(../fonts/Gilroy-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: local("Gilroy-ExtraBold"), url(../fonts/Gilroy-ExtraBold.ttf);
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: local("Gilroy-Medium"), url(../fonts/Gilroy-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: local("Gilroy-Regular"), url(../fonts/Gilroy-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: local("Gilroy-SemiBold"), url(../fonts/Gilroy-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+html {
+    scroll-padding-top: calc(70px + 41*(100vw / 1440));
+}
+html,body{
+	height: 100%;
+	width: 100%;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 17px;
+}
+body.lock {
+    overflow: hidden;
+}
+.wrapper {
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
+    overflow: hidden;
+}
+.container {
+    max-width: 1162px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+a.button,
+a.order {
+    color: #fff;
+}
+.button {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 17px;
+    line-height: 117.6%;
+    background-color: #EC3D08;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: .3s ease;
+    padding: 0 5px;
+}
+.button:hover {
+    background: #CB3001;
+}
+.order {
+    width: calc(180px + 45*(100vw / 1440));
+    font-size: calc(15px + 2*(100vw / 1440));
+    height: 44px;
+}
+h2 {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+}
+h6 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    line-height: 120%;
+}
+.title {
+    font-size: calc(45px + 5*(100vw / 1440));
+    line-height: 122%;
+    text-align: center;
+}
+.title-repeat {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: calc(100px + 20*(100vw / 1440));
+    line-height: 120.8%;
+    color: #000;
+    text-align: center;
+    -webkit-text-stroke: 1px #B7B7B7;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+.content {
+    margin-top: -55px;
+}

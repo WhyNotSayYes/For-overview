@@ -1,0 +1,43 @@
+.main__about {
+}
+.about {
+    margin-top: calc(80px + 20*(100vw / 1440));
+}
+.about span {
+    color: #EC3D08;
+}
+.about__container {
+    display: flex;
+    justify-content: space-between;
+}
+.about__text {
+    padding-right: 15px;
+    max-width: 540px;
+}
+.about__title {
+    margin-bottom: 35px;
+}
+.about__text-content_text {
+    font-size: 25px;
+    line-height: 116%;
+}
+.about__content {
+    padding-left: 15px;
+    max-width: 444px;
+}
+.about__item {
+    display: flex;
+}
+.about__item:not(:last-child) {
+    margin-bottom: 30px;
+}
+.about__item-left {
+    padding-right: 25px;
+}
+.about__item_title {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.about__item_subtitle {
+    line-height: 117.65%;
+}
