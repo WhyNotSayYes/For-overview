@@ -7,9 +7,7 @@ add_filter( 'woocommerce_catalog_orderby', 'wc_customize_product_sorting' );
 
 function wc_customize_product_sorting( $sorting_options ) {
     $sorting_options = array(
-        // 'menu_order' => __( 'Default sorting', 'woocommerce' ),
         'popularity' => __( 'За популярністю', 'woocommerce' ),
-        // 'rating' => __( 'За середнім рейтингом', 'woocommerce' ),
         'date' => __( 'Спочатку нові', 'woocommerce' ),
         'price' => __( 'Ціни за зростанням', 'woocommerce' ),
         'price-desc' => __( 'Ціни по спадінню', 'woocommerce' ),
